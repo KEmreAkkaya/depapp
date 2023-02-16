@@ -6,6 +6,7 @@ import { ContactComponent } from './contact/contact.component';
 import { DepremformComponent } from './depremform/depremform.component';
 import { EarthquakeDonationSitesComponent } from './earthquake-donation-sites/earthquake-donation-sites.component';
 import { HomeComponent } from './home/home.component';
+import { MapComponent } from './map/map.component';
 import { UserListComponent } from './user-list/user-list.component';
 import { UserComponent } from './user/user.component';
 
@@ -20,6 +21,7 @@ const routes: Routes = [
   { path: 'adminpanel', component: AdminpanelComponent},
   { path: 'adminpanel/userlist', component: UserListComponent},
   { path: 'adminpanel/userlist/:id', component: AdminComponent},
+  { path: 'adminpanel/map', component: MapComponent}
 ];
 
 @NgModule({

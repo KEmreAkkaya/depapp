@@ -15,6 +15,7 @@ import { EarthquakeDonationSitesComponent } from './earthquake-donation-sites/ea
 import { ContactComponent } from './contact/contact.component';
 import { MapComponent } from './map/map.component';
 import { UserListComponent } from './user-list/user-list.component';
+import { AdminpanelControlComponent } from './adminpanel-control/adminpanel-control.component';
 
 
 
@@ -33,6 +34,7 @@ import { UserListComponent } from './user-list/user-list.component';
     ContactComponent,
     MapComponent,
     UserListComponent,
+    AdminpanelControlComponent,
 
 
   ],
