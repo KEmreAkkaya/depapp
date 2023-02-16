@@ -12,6 +12,8 @@ There is no responsibility for abuse.
 
 !Important Warning! You can't write on database includes "users" database.You can only read.
 
+If you have "Error: Could not find the '@angular-devkit/build-angular:dev-server' builder's node package." problem.You should use this command :<ins>npm install @angular-devkit/build-angular --force</ins> in the project.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.3.
 
 
